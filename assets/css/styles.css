@@ -1,0 +1,28 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+  --bs-body-bg: #000000;
+  --bs-body-font-weight: 300;
+  --bs-body-color: #ffffff;
+}
+
+.container {
+  height: 100%;
+  max-width: 960px;
+}
+
+.text-badge {
+  padding: .1em .4em;
+  background: var(--bs-body-bg);
+}
+
+.banner {
+  padding: 2em 1em;
+  text-align: center;
+  background: var(--bs-indigo);
+  border-radius: 1em;
+}
+
+.projects {
+  --bs-gutter-y: 1.5rem;
+}
+
